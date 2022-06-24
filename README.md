@@ -6,7 +6,7 @@
 
 本主题基于[yilia](https://github.com/litten/hexo-theme-yilia)和[smackdown](https://github.com/smackgg/hexo-theme-smackdown)开发，特别在此感谢两位作者。
 
-**如果这个主题对你有用，还请star支持一下。**欢迎大家多提issue，有改进也欢迎提PR。
+**如果这个主题对你有用，还请star支持一下。** 欢迎大家多提issue，有改进也欢迎提PR。
 
 ---
 
