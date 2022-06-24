@@ -1,0 +1,6 @@
+<!-- <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script> -->
+<!-- 此CDN链接已失效，我找了很久的资源，从一个废弃GitHub仓库中找到了对应的js资源可以实现功能 -->
+<!-- 由于av-core-mini-0.6.1.js和av-min.js冲突，所以把本位置和源文件的所有AV改成AV0以避免冲突 -->
+<%- js('js/av-core-mini-0.6.1.js') %>
+<script>AV0.initialize("<%= theme.leancloud_visitors.app_id %>", "<%= theme.leancloud_visitors.app_key%>");</script>
+<%- js('js/Counter') %>

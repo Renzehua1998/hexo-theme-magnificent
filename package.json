@@ -1,0 +1,12 @@
+{
+  "name": "hexo-theme-magnificent",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "hexo-renderer-ejs": "*",
+    "hexo-renderer-stylus": "*",
+    "hexo-renderer-pandoc": "*",
+    "hexo-generator-json-content": "*",
+    "hexo-wordcount": "*"
+  }
+}

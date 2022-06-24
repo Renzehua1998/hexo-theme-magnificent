@@ -1,0 +1,100 @@
+# Header
+menu:
+  主页: /
+  时间线: /archives
+  # 分类: /categories
+
+# SubNav
+subnav:
+  github: "#"
+  zhihu: "#"
+  CSDN: "#"
+  cnblogs: "#"
+  # mail: "mailto:your-email-address"
+  # qq: "#"
+  # weibo: "#"
+  # rss: "#"
+  # douban: "#"
+  # facebook: "#"
+  # google: "#"
+  # twitter: "#"
+  # linkedin: "#"
+
+rss: /atom.xml
+
+# Content
+excerpt_link: 阅读全文
+# excerpt_link: more
+
+# 是否开启字数统计——不需要使用，直接设置值为false，或注释掉
+# 单篇文章不想使用，可以在文中注明no_word_count: false
+word_count: true
+
+# 是否使用mathjax显示公式
+mathjax:
+  enable: true
+  per_page: false
+  # cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+# 是否开启动画效果
+animate: true
+
+# 是否在新窗口打开链接
+open_in_new: false
+
+# 百度统计、谷歌统计
+# baidu_tongji: true
+# google_analytics: true
+
+# 你的网页icon
+favicon: /img/favicon.ico
+
+#你的头像url
+avatar: /img/avatar.jpeg
+
+#是否开启分享
+share: true
+
+# 是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
+# 若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论
+# duoshuo: your duoshuo id
+
+#Valine评论 https://valine.js.org
+# valine: false
+valine: 
+ app_id: #Leancloud应用的appId
+ app_key: #Leancloud应用的appKey
+ requiredFields: ['nick','mail'] # 需要填写昵称和邮箱
+ verify: false # 验证码
+ notify: true # 评论回复提醒
+ avatar: monsterid # 评论列表头像样式：''/mm/identicon/monsterid/wavatar/retro/hide
+ placeholder: 因为开发版云服务器存在休眠的可能，可以多评论一次以便我尽快收到哦~\n您也可以选择留下邮箱，收到回复后会及时发邮件通知您 # 评论框占位符
+
+# 是否开启云标签轮换菜单
+tagcloud: true
+
+# 是否开启文章阅读量
+leancloud_visitors:
+  enable: false
+  app_id: #Leancloud应用的appId
+  app_key: #Leancloud应用的appKey
+
+# 是否开启不蒜子网页访问统计
+busuanzi: true
+
+# 是否开启友情链接
+# 不开启——
+# friends: false
+# 开启——
+friends:
+  境外分流: https://yourname.github.io/
+  国内分流: https://yourname.gitee.io/
+
+# 是否开启“关于我”。
+# 不开启——
+# aboutme: false
+# 开启——
+aboutme: 很惭愧，只做了一些小工作
+
+# 是否开启全局搜索（需要hexo-generator-json-content插件）
+swift_search: true
