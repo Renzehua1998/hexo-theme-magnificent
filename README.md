@@ -29,7 +29,7 @@ Todo List：
 - 其他小功能：回顶部、到底部、进度条、亮暗主题切换、导航栏收起、目录栏、可选特效开关等。
 - 主题不支持IE6，7，8。以后也不会（原作者的话）。
 
-**电脑端效果：**访问https://renzehua1998.github.io/，国内访问https://renzehua.gitee.io/
+**电脑端效果：**访问 https://renzehua1998.github.io/ ，国内访问 https://renzehua.gitee.io/
 
 ![电脑1](https://user-images.githubusercontent.com/48848908/175755287-32602d8f-c840-451f-9912-6254c1a4703a.png)
 

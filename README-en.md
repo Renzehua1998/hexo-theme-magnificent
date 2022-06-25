@@ -30,7 +30,7 @@ Todo List：
 - Other small functions: back to the top, to the bottom, progress bar, light and dark theme switching, navigation bar collapse, directory bar, optional special effect switch, etc.
 - The theme does not support IE6, 7, 8. Neither will (original author's words).
 
-**Computer effect:** visithttps://renzehua1998.github.io/，mainland Chinahttps://renzehua.gitee.io/
+**Computer effect:** visit https://renzehua1998.github.io/ ，mainland China https://renzehua.gitee.io/
 
 ![电脑1](https://user-images.githubusercontent.com/48848908/175755287-32602d8f-c840-451f-9912-6254c1a4703a.png)
 
