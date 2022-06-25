@@ -180,24 +180,24 @@ swift_search: true
 
 1. To add a category page, in addition to setting the theme configuration file, please create a new ```index.md``` under the hexo root directory ```source/categories```, and edit it:
 
-   ```markdown
+```markdown
    ---
    title: Categories
    type: "categories"
    ---
-   ```
+```
 
 2. For avatar and web icon, please create ```avatar.jpeg``` and ```favicon.ico``` in the hexo root directory ```source/img```. To change the filename or extension please change it to your desired name in ```_config.yml``` under the theme directory ````themes/magnificent```.
 
 3. To enable the global search function, please install the **hexo-generator-json-content** module first.
 
-   ```bash
+```bash
    hexo install hexo-generator-json-content --save
-   ```
+```
 
    And in the ```_config.yml``` file in the hexo root directory, add:
 
-   ```yml
+```yml
    jsonContent:
      meta: false
      pages: false
@@ -216,21 +216,21 @@ swift_search: true
        permalink: false
        excerpt: false
        categories: false
-   ```
+```
 
 4. If you use reading word count, you need to install the **hexo-wordcount** module.
 
-   ```bash
+```bash
    hexo install hexo-wordcount --save
-   ```
+```
 
 5. If there is a problem after modification, please try to clear the cache and recompile:
 
-   ```bash
+```bash
    hexo clean
    hexo g
    hexo server
-   ```
+```
 
 6. [Valine](https://valine.js.org/) comments and reading statistics need to register [leancloud](https://www.leancloud.cn/) account, after registration, fill in your ```app_id`` and ```app_key``` in the place mentioned above.
 

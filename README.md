@@ -178,10 +178,10 @@ swift_search: true
 
 1. 要加入分类页面，除了设置主题配置文件外，请在hexo根目录```source/categories```下新建```index.md```，并在其中编辑：
 
-   ```markdown
+```markdown
    ---
    title: 分类导航
-type: "categories"
+   type: "categories"
    ---
 ```
    
@@ -189,13 +189,13 @@ type: "categories"
 
 3. 若要开启全局搜索功能，请先安装**hexo-generator-json-content**模块。
 
-   ```bash
+```bash
    hexo install hexo-generator-json-content --save
-   ```
+```
 
    并在hexo根目录下的 ```_config.yml``` 文件中添加：
 
-   ```yml
+```yml
    jsonContent:
      meta: false
      pages: false
@@ -214,21 +214,21 @@ type: "categories"
        permalink: false
        excerpt: false
        categories: false
-   ```
+```
 
 4. 如果使用阅读字数统计，需要安装**hexo-wordcount**模块。
 
-   ```bash
+```bash
    hexo install hexo-wordcount --save
-   ```
+```
 
 5. 如果修改后出问题，请先尝试清除缓存重新编译：
 
-   ```bash
+```bash
    hexo clean
    hexo g
    hexo server
-   ```
+```
 
 6. [Valine](https://valine.js.org/)评论和阅读量统计都需要注册[leancloud](https://www.leancloud.cn/)账号，注册好后在上面提到的地方填写自己的```app_id```和```app_key```即可。
 
