@@ -29,7 +29,7 @@ Todo List：
 - 其他小功能：回顶部、到底部、进度条、亮暗主题切换、导航栏收起、目录栏、可选特效开关等。
 - 主题不支持IE6，7，8。以后也不会（原作者的话）。
 
-**电脑端效果：**
+**电脑端效果：**访问https://renzehua1998.github.io/，国内访问https://renzehua.gitee.io/
 
 ![电脑1](https://user-images.githubusercontent.com/48848908/175755287-32602d8f-c840-451f-9912-6254c1a4703a.png)
 
@@ -38,6 +38,10 @@ Todo List：
 **手机端效果：**
 
 ![手机](https://user-images.githubusercontent.com/48848908/175755284-c663e67f-017f-4667-aaaa-1ec20347c300.png)
+
+可以扫描查看手机端效果：
+
+![手机二维码](https://user-images.githubusercontent.com/48848908/175758088-d2698f88-2ae7-4101-b329-c85f9026d98b.jpg)
 
 二、快速上手
 ---
@@ -184,7 +188,7 @@ swift_search: true
    type: "categories"
    ---
 ```
-   
+
 2. 头像和网页icon请在hexo根目录```source/img```下新建```avatar.jpeg```和```favicon.ico```即可。要想改变文件名或扩展名请在主题目录```themes/magnificent```下的```_config.yml```中改成您想要的名称。
 
 3. 若要开启全局搜索功能，请先安装**hexo-generator-json-content**模块。

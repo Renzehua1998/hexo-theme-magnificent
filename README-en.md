@@ -17,7 +17,8 @@ Todo List：
 
 ---
 
-1. Introduction to the theme
+## 1. Introduction to the theme
+
 ---
 
 - Developed based on hexo 6.0+, many small functions have been added.
@@ -29,7 +30,7 @@ Todo List：
 - Other small functions: back to the top, to the bottom, progress bar, light and dark theme switching, navigation bar collapse, directory bar, optional special effect switch, etc.
 - The theme does not support IE6, 7, 8. Neither will (original author's words).
 
-**Computer effect:**
+**Computer effect:** visithttps://renzehua1998.github.io/，mainland Chinahttps://renzehua.gitee.io/
 
 ![电脑1](https://user-images.githubusercontent.com/48848908/175755287-32602d8f-c840-451f-9912-6254c1a4703a.png)
 
@@ -39,7 +40,12 @@ Todo List：
 
 ![手机](https://user-images.githubusercontent.com/48848908/175755284-c663e67f-017f-4667-aaaa-1ec20347c300.png)
 
-2. Quick start
+You can scan to view the effect on the mobile phone:
+
+![手机二维码](https://user-images.githubusercontent.com/48848908/175758088-d2698f88-2ae7-4101-b329-c85f9026d98b.jpg)
+
+## 2. Quick start
+
 ---
 
 In your hexo blog directory:
@@ -67,7 +73,8 @@ cd themes/magnificent
 git pull
 ```
 
-3. Theme config
+## 3. Theme config
+
 ---
 
 The configuration file is in the ```_config.yml``` under the theme directory ```themes/magnificent```, please modify it according to your own needs. 
@@ -175,7 +182,8 @@ aboutme: I only did some small work
 swift_search: true
 ```
 
-4. Other issues
+## 4. Other issues
+
 ---
 
 1. To add a category page, in addition to setting the theme configuration file, please create a new ```index.md``` under the hexo root directory ```source/categories```, and edit it:
