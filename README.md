@@ -29,6 +29,16 @@ Todo List：
 - 其他小功能：回顶部、到底部、进度条、亮暗主题切换、导航栏收起、目录栏、可选特效开关等。
 - 主题不支持IE6，7，8。以后也不会（原作者的话）。
 
+**电脑端效果：**
+
+![电脑1](https://user-images.githubusercontent.com/48848908/175755287-32602d8f-c840-451f-9912-6254c1a4703a.png)
+
+![电脑2](https://user-images.githubusercontent.com/48848908/175755282-d91a5b12-11ec-4f8b-b26f-c37c8aa21c36.png)
+
+**手机端效果：**
+
+![手机](https://user-images.githubusercontent.com/48848908/175755284-c663e67f-017f-4667-aaaa-1ec20347c300.png)
+
 二、快速上手
 ---
 
@@ -37,7 +47,7 @@ Todo List：
 **安装**
 
 ```Bash
-$ git clone https://github.com/Renzehua1998/hexo-theme-magnificent themes/magnificent
+git clone https://github.com/Renzehua1998/hexo-theme-magnificent themes/magnificent
 ```
 
 **配置**
@@ -58,7 +68,7 @@ git pull
 
 三、配置
 ---
-主题配置文件在主目录下的```_config.yml```，请根据自己需要修改使用。 
+配置文件在主题目录```themes/magnificent```下的```_config.yml```，请根据自己的需要修改使用。 
 
 ```yml
 # Header
@@ -112,17 +122,17 @@ open_in_new: false
 # 你的网页icon
 favicon: /img/favicon.ico
 
-#你的头像url
+# 你的头像url
 avatar: /img/avatar.jpeg
 
-#是否开启分享
+# 是否开启分享
 share: true
 
 # 是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
 # 若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论
 # duoshuo: your duoshuo id
 
-#Valine评论 https://valine.js.org
+# Valine评论 https://valine.js.org
 # valine: false
 valine: 
  app_id: #Leancloud应用的appId
@@ -166,10 +176,21 @@ swift_search: true
 四、其他依赖
 ---
 
-1. 若要开启全局搜索功能，请先安装**hexo-generator-json-content**模块。
+1. 要加入分类页面，除了设置主题配置文件外，请在hexo根目录```source/categories```下新建```index.md```，并在其中编辑：
+
+   ```markdown
+   ---
+   title: 分类导航
+type: "categories"
+   ---
+```
+   
+2. 头像和网页icon请在hexo根目录```source/img```下新建```avatar.jpeg```和```favicon.ico```即可。要想改变文件名或扩展名请在主题目录```themes/magnificent```下的```_config.yml```中改成您想要的名称。
+
+3. 若要开启全局搜索功能，请先安装**hexo-generator-json-content**模块。
 
    ```bash
-   hexo install hexo-generator-json-content -save
+   hexo install hexo-generator-json-content --save
    ```
 
    并在hexo根目录下的 ```_config.yml``` 文件中添加：
@@ -195,12 +216,20 @@ swift_search: true
        categories: false
    ```
 
-2. 如果使用阅读字数统计，需要安装**hexo-wordcount**模块。
+4. 如果使用阅读字数统计，需要安装**hexo-wordcount**模块。
 
    ```bash
-   hexo install hexo-wordcount -save
+   hexo install hexo-wordcount --save
    ```
 
-3. 多说评论系统已经关闭，此处仍然保留了原作者的多说评论框架，后续计划开发成基于gitment的评论系统。
+5. 如果修改后出问题，请先尝试清除缓存重新编译：
 
-4. [Valine](https://valine.js.org/)评论和阅读量统计都需要注册[leancloud](https://www.leancloud.cn/)账号，注册好后在上面提到的地方填写自己的```app_id```和```app_key```即可。
+   ```bash
+   hexo clean
+   hexo g
+   hexo server
+   ```
+
+6. [Valine](https://valine.js.org/)评论和阅读量统计都需要注册[leancloud](https://www.leancloud.cn/)账号，注册好后在上面提到的地方填写自己的```app_id```和```app_key```即可。
+
+7. 多说评论系统已经关闭，此处仍然保留了原作者的多说评论框架，后续计划开发成基于gitment的评论系统。
